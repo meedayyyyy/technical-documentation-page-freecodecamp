@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Red+Hat+Text&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'red hat text'; background-color: #f4f4f4;
+   color: #6A2288;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+main{
+  margin-left: 240px;
+  margin-right: auto;
+  padding: 0 40px;
+  /* overflow: hidden; */
+}
+
+
+header{
+  font-size: 32px;
+  margin-top: 40px;
+  /* margin-bottom: 8px; */
+  font-family: 'red hat display';
+
+}
+
+.first-header{
+  font-size: 40px;
+  line-height: 40px;
+}
+
+p{
+  margin: 20px 0;
+} 
+code{
+  color: #1e1e1e;
+  padding: 20px;
+}
+nav{
+  margin: 40px 0;
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  top: -40px;
+  left: 0;
+  overflow: auto;
+border-right: solid ;
+}
+a{
+  display: block;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #9b9a9b
+}
+nav header{
+  margin-bottom: 40px;
+  padding-left: 16px;
+   font-size: 24px;
+}
+a:hover{
+  color: #6A2288
+}
+@media (max-width: 700px) { nav {
+text-align: center;
+    float: none;
+    position: static;
+    border: none;
+    height: auto;
+    }
+    main{
+      margin: 0 auto;
+    }
+    header{
+      font-size: 20px;
+      font-weight: 600;
+    }
+.first-header{
+  font-size: 32px;
+  line-height: 32px;
+}
+
+}
